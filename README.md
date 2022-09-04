@@ -8,7 +8,6 @@
 ```bash
 # setup minikube
 minikube start --kubernetes-version=1.24.3 --driver=docker --memory 8192 --cpus 2
-minikube addons enable ingress
 
 # setup consul
 terraform -chdir=consul init
